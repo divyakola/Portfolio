@@ -314,13 +314,13 @@ body.dark-mode .skill-box{
     padding:80px 5%;
 }
 
-/* PROJECT CONTAINER */
+/* PROJECTS CONTAINER */
 
 .projects-container{
 
     display:grid;
 
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(3, 1fr);
 
     gap:35px;
 }
@@ -357,7 +357,7 @@ body.dark-mode .skill-box{
 
     width:100%;
 
-    height:280px;
+    height:260px;
 
     object-fit:cover;
 
@@ -375,9 +375,9 @@ body.dark-mode .skill-box{
 
 .project-content h3{
 
-    font-size:26px;
+    font-size:28px;
 
-    line-height:1.4;
+    line-height:1.5;
 
     margin-bottom:18px;
 
