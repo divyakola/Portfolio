@@ -2,86 +2,114 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>My Portfolio</title>
 
     <!-- CSS FILE -->
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
     <header>
 
-    <div class="logo">MyPortfolio</div>
+        <h1 class="logo">MyPortfolio</h1>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <nav>
 
-    <!-- DARK MODE BUTTON -->
+            <a href="#home">Home</a>
 
-    <button id="theme-toggle">
-        🌙
-    </button>
+            <a href="#about">About</a>
 
-</header>
+            <a href="#skills">Skills</a>
 
-    <!-- HERO SECTION -->
+            <a href="#projects">Projects</a>
+
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <!-- DARK MODE BUTTON -->
+
+        <button id="theme-toggle">🌙</button>
+
+    </header>
+
+    <!-- =========================================
+         HERO SECTION
+    ========================================== -->
+
     <section class="hero" id="home">
 
-        <h1>Hello, I'm Siva Krishna Divyakola</h1>
+        <h1>Siva Krishna</h1>
 
-        <p>CEO & Founder | Python Full Stack Developer | AI Enthusiast | Data Scientist | Entrepreneur</p>
+        <p>
+            Founder & CEO of Vagdevi Technologies
+            and VCS IT Solutions Pvt Ltd
+        </p>
 
-        <button onclick="showMessage()">
-            Let's Connect
-        </button>
+        <a href="#projects" class="hero-btn">
+            View My Projects
+        </a>
 
     </section>
 
-    <!-- ABOUT -->
+    <!-- =========================================
+         ABOUT SECTION
+    ========================================== -->
+
     <section id="about">
 
         <h2 class="title">About Me</h2>
 
         <div class="about-container">
 
-            <img src="image.png" alt="Profile Image">
+            <!-- IMAGE -->
+
+            <div>
+
+                <img src="images/profile.jpg" alt="Profile Image">
+
+            </div>
+
+            <!-- TEXT -->
 
             <div class="about-text">
 
-                <h3>Who Am I?</h3>
+                <h3>Python Full Stack & AI Trainer</h3>
 
                 <p>
-I am the Founder & CEO of 
-<strong>Vagdevi Technologies</strong> and 
-<strong>VCS IT Solutions Pvt. Ltd.</strong>, with strong professional 
-experience in Python Full Stack Development, Data Science, Artificial 
-Intelligence & Machine Learning, Selenium Automation Testing, and 
-modern software technologies.</p>
+                    I am the Founder & CEO of
+                    Vagdevi Technologies and
+                    VCS IT Solutions Pvt Ltd.
+                </p>
 
-<p>I am passionate about technology, innovation, and professional training. 
-Over the years, I have successfully trained 30,000+ students and working 
-professionals in various IT domains, helping them build successful careers 
-in the software industry.</p>
+                <p>
+                    I have strong knowledge and
+                    professional experience in
+                    Python Full Stack Development,
+                    Data Science, AI/ML, Selenium,
+                    Django, Web Development,
+                    and Automation Testing.
+                </p>
 
-<p>My expertise includes Python, Django, HTML, CSS, JavaScript, React, 
-SQL, Automation Testing, AI/ML, Data Analytics, and real-time project 
-development. I strongly believe in practical learning and industry-oriented 
-training methodologies.</p>
-
-<p>My mission is to empower students and professionals with the latest 
-technology skills and bridge the gap between academic learning and 
-industry requirements.</p>
-
+                <p>
+                    I am passionate about training
+                    students and professionals.
+                    I have successfully trained
+                    30,000+ students and working
+                    professionals in software technologies.
+                </p>
 
             </div>
 
@@ -89,342 +117,230 @@ industry requirements.</p>
 
     </section>
 
-    <!-- SKILLS -->
+    <!-- =========================================
+         SKILLS SECTION
+    ========================================== -->
+
     <section id="skills">
 
         <h2 class="title">My Skills</h2>
 
         <div class="skills-container">
 
-            <div class="skill-box">HTML</div>
-            <div class="skill-box">CSS</div>
-            <div class="skill-box">JavaScript</div>
             <div class="skill-box">Python</div>
+
             <div class="skill-box">Django</div>
-            <div class="skill-box">React</div>
-            <div class="skill-box">Selenium</div>
-            <div class="skill-box">Playwright</div>
-            <div class="skill-box">MySQL</div>
-            <div class="skill-box">MongoDB</div>
+
             <div class="skill-box">Data Science</div>
-            <div class="skill-box">AI/ML</div>
-            <div class="skill-box">Gen AI</div>
-            <div class="skill-box">Go Lang</div>
+
+            <div class="skill-box">AI / ML</div>
+
+            <div class="skill-box">Selenium</div>
+
+            <div class="skill-box">JavaScript</div>
+
+            <div class="skill-box">HTML</div>
+
+            <div class="skill-box">CSS</div>
+
+            <div class="skill-box">SQL</div>
 
         </div>
 
     </section>
 
-    <!-- PROJECTS -->
+    <!-- =========================================
+         PROJECTS SECTION
+    ========================================== -->
+
     <section id="projects">
 
-    <h2 class="title">My Projects</h2>
+        <h2 class="title">My Projects</h2>
 
-    <div class="projects-container">
+        <div class="projects-container">
 
-        <!-- PROJECT 1 -->
+            <!-- PROJECT 1 -->
 
-        <div class="project-card">
+            <div class="project-card">
 
-            <img src="proj1.png" alt="">
+                <img src="images/project1.jpg"
+                     alt="Portfolio Website">
 
-            <div class="project-content">
+                <div class="project-content">
 
-                <h3>Professional Portfolio Website</h3>
-
-                <p>
-                    Modern responsive portfolio website with animations.
-                </p>
-
-                <button class="read-more-btn">
-                    Read More
-                </button>
-
-                <div class="project-details">
-
-                    <h4>About Project</h4>
+                    <h3>Professional Portfolio Website</h3>
 
                     <p>
-                        Fully responsive portfolio website with
-                        dark/light mode, project showcase,
-                        and GitHub integration.
+                        Modern responsive portfolio website
+                        with animations.
                     </p>
 
-                    <h4>Technologies Used</h4>
+                    <button class="read-more-btn">
+                        Read More
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <img src="images/project2.jpg"
+                     alt="Django CRUD">
+
+                <div class="project-content">
+
+                    <h3>Django CRUD Application</h3>
 
                     <p>
-                        HTML, CSS, JavaScript
+                        Complete CRUD operations web application
+                        using Django framework.
                     </p>
 
-                    <a href="https://github.com/yourusername/portfolio-website"
-                       target="_blank"
-                       class="github-btn">
+                    <button class="read-more-btn">
+                        Read More
+                    </button>
 
-                        Source Code
+                </div>
 
-                    </a>
+            </div>
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <img src="images/project3.jpg"
+                     alt="AI Chatbot">
+
+                <div class="project-content">
+
+                    <h3>AI Chatbot Application</h3>
+
+                    <p>
+                        Intelligent chatbot application
+                        using Python and AI technologies.
+                    </p>
+
+                    <button class="read-more-btn">
+                        Read More
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 4 -->
+
+            <div class="project-card">
+
+                <img src="images/project4.jpg"
+                     alt="Ecommerce Website">
+
+                <div class="project-content">
+
+                    <h3>E-Commerce Website</h3>
+
+                    <p>
+                        Responsive shopping website with
+                        cart and payment features.
+                    </p>
+
+                    <button class="read-more-btn">
+                        Read More
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 5 -->
+
+            <div class="project-card">
+
+                <img src="images/project5.jpg"
+                     alt="Face Recognition">
+
+                <div class="project-content">
+
+                    <h3>Face Recognition System</h3>
+
+                    <p>
+                        AI-powered face recognition
+                        attendance system.
+                    </p>
+
+                    <button class="read-more-btn">
+                        Read More
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- PROJECT 6 -->
+
+            <div class="project-card">
+
+                <img src="images/project6.jpg"
+                     alt="Data Science Dashboard">
+
+                <div class="project-content">
+
+                    <h3>Data Science Dashboard</h3>
+
+                    <p>
+                        Interactive dashboard for data
+                        analytics and visualization.
+                    </p>
+
+                    <button class="read-more-btn">
+                        Read More
+                    </button>
+
+                </div>
 
             </div>
 
         </div>
 
-        <!-- PROJECT 2 -->
+    </section>
 
-        <div class="project-card">
+    <!-- =========================================
+         CONTACT SECTION
+    ========================================== -->
 
-            <img src="proj2.png" alt="">
-
-            <div class="project-content">
-
-                <h3>Django CRUD Application</h3>
-
-        <p>
-            Complete CRUD operations web application developed
-            using Django framework with database integration.
-        </p>
-
-        <button class="read-more-btn">
-            Read More
-        </button>
-
-        <div class="project-details">
-
-            <h4>About Project</h4>
-
-            <p>
-                This project is a fully functional CRUD
-                (Create, Read, Update, Delete) web application
-                built using Django framework. It allows users
-                to add, view, update, and delete records with
-                authentication and responsive user interface.
-            </p>
-
-            <h4>Technologies Used</h4>
-
-            <p>
-                Python, Django, SQLite, HTML, CSS,
-                JavaScript, Bootstrap
-            </p>
-
-            <a href="https://github.com/yourusername/django-crud-application"
-               target="_blank"
-               class="github-btn">
-
-                Source Code
-
-            </a>
-
-            </div>
-
-        </div>
-
-        <!-- PROJECT 3 -->
-
-        <div class="project-card">
-
-            <img src="proj3.png" alt="">
-
-            <div class="project-content">
-
-                <h3>AI Chatbot Application</h3>
-
-                <p>
-                    Intelligent chatbot application using Python and AI technologies.
-                </p>
-
-                <button class="read-more-btn">
-                    Read More
-                </button>
-
-                <div class="project-details">
-
-                    <h4>About Project</h4>
-
-                    <p>
-                        AI-powered chatbot developed using Python,
-                        APIs, and Machine Learning concepts to
-                        automate conversations and responses.
-                    </p>
-
-                    <h4>Technologies Used</h4>
-
-                    <p>
-                        Python, HTML, CSS, JavaScript, APIs
-                    </p>
-
-                    <a href="https://github.com/yourusername/ai-chatbot"
-                       target="_blank"
-                       class="github-btn">
-
-                        Source Code
-
-                    </a>
-
-            </div>
-
-        </div>
-
-        <!-- PROJECT 4 -->
-
-        <div class="project-card">
-
-            <img src="proj4.png" alt="">
-
-            <div class="project-content">
-
-                <h3>Student Management System</h3>
-
-                <p>
-                    Complete student record and attendance management system.
-                </p>
-
-                <button class="read-more-btn">
-                    Read More
-                </button>
-
-                <div class="project-details">
-
-                    <h4>About Project</h4>
-
-                    <p>
-                        Developed using Django framework with CRUD
-                        operations, authentication, and admin panel.
-                    </p>
-
-                    <h4>Technologies Used</h4>
-
-                    <p>
-                        Python, Django, SQLite, Bootstrap
-                    </p>
-
-                    <a href="https://github.com/yourusername/student-management"
-                       target="_blank"
-                       class="github-btn">
-
-                        Source Code
-
-                    </a>
-
-            </div>
-
-        </div>
-
-        <!-- PROJECT 5 -->
-
-        <div class="project-card">
-
-            <img src="proj5.png" alt="">
-
-            <div class="project-content">
-
-                <h3>E-Commerce Website</h3>
-
-                <p>
-                    Responsive shopping website with cart and payment features.
-                </p>
-
-                <button class="read-more-btn">
-                    Read More
-                </button>
-
-                <div class="project-details">
-
-                    <h4>About Project</h4>
-
-                    <p>
-                        Modern online shopping platform with
-                        product management, cart system,
-                        and checkout functionality.
-                    </p>
-
-                    <h4>Technologies Used</h4>
-
-                    <p>
-                        HTML, CSS, JavaScript, Django
-                    </p>
-
-                    <a href="https://github.com/yourusername/ecommerce-website"
-                       target="_blank"
-                       class="github-btn">
-
-                        Source Code
-
-                    </a>
-
-            </div>
-
-        </div>
-
-        <!-- PROJECT 6 -->
-
-        <div class="project-card">
-
-            <img src="proj6.png" alt="">
-
-            <div class="project-content">
-
-                <h3>Data Science Dashboard</h3>
-
-                <p>
-                    Interactive dashboard for data analytics and visualization.
-                </p>
-
-                <button class="read-more-btn">
-                    Read More
-                </button>
-
-                <div class="project-details">
-
-                    <h4>About Project</h4>
-
-                    <p>
-                        Dashboard application for data analysis,
-                        reporting, charts, and insights generation.
-                    </p>
-
-                    <h4>Technologies Used</h4>
-
-                    <p>
-                        Python, Pandas, Matplotlib, Streamlit
-                    </p>
-
-                    <a href="https://github.com/yourusername/data-dashboard"
-                       target="_blank"
-                       class="github-btn">
-
-                        Source Code
-
-                    </a>
-
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-    <!-- CONTACT -->
     <section id="contact">
 
         <h2 class="title">Contact Me</h2>
 
         <div class="contact-container">
 
-            <p>Email: sivakrishna.python@gmail.com</p>
-            <p>Phone: +91 8019658644</p>
-            <p>Location: Hyderabad</p>
+            <p>Email : info@vagdevitechnologies.com</p>
+
+            <p>Phone : +91 95159 01571</p>
+
+            <p>Location : Hyderabad, India</p>
 
         </div>
 
     </section>
 
-    <!-- FOOTER -->
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
     <footer>
-        <p>© 2026 Siva Krishna Divyakola | All Rights Reserved</p>
+
+        <p>
+            © 2026 Siva Krishna | All Rights Reserved
+        </p>
+
     </footer>
 
-    <!-- JS FILE -->
+    <!-- JAVASCRIPT FILE -->
+
     <script src="script.js"></script>
 
 </body>
