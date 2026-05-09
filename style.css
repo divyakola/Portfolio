@@ -153,7 +153,7 @@ section{
 
 /* PROJECTS */
 
-/* PROJECTS SECTION */
+/* PROJECTS CONTAINER */
 
 .projects-container{
 
@@ -186,7 +186,7 @@ section{
     transform:translateY(-10px);
 }
 
-/* IMAGE */
+/* PROJECT IMAGE */
 
 .project-card img{
 
@@ -206,20 +206,22 @@ section{
     padding:20px;
 }
 
-.project-content h3{
+/* RESPONSIVE */
 
-    margin-bottom:15px;
+@media(max-width:992px){
 
-    font-size:24px;
+    .projects-container{
+
+        grid-template-columns:repeat(2,1fr);
+    }
 }
 
-.project-content p{
+@media(max-width:768px){
 
-    line-height:1.7;
+    .projects-container{
 
-    margin-bottom:15px;
-
-    color:#555;
+        grid-template-columns:1fr;
+    }
 }
 
 /* BUTTONS */
