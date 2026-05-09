@@ -1,12 +1,12 @@
-/* =========================
+/* ===================================
    GOOGLE FONT
-========================= */
+=================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* =========================
+/* ===================================
    GLOBAL STYLES
-========================= */
+=================================== */
 
 *{
     margin:0;
@@ -17,29 +17,29 @@
 }
 
 body{
-    background:#f5f7fb;
+    background:#f4f7fb;
     color:#111827;
     transition:0.4s;
 }
 
-/* =========================
+/* ===================================
    DARK MODE
-========================= */
+=================================== */
 
 body.dark-mode{
     background:#0f172a;
     color:white;
 }
 
-/* =========================
+/* ===================================
    HEADER
-========================= */
+=================================== */
 
 header{
 
     width:100%;
 
-    background:#020b24;
+    background:#020617;
 
     display:flex;
 
@@ -60,11 +60,11 @@ header{
 
 .logo{
 
-    font-size:40px;
+    color:white;
+
+    font-size:42px;
 
     font-weight:700;
-
-    color:white;
 }
 
 /* NAVIGATION */
@@ -94,7 +94,7 @@ nav a:hover{
     color:#38bdf8;
 }
 
-/* DARK MODE BUTTON */
+/* THEME BUTTON */
 
 #theme-toggle{
 
@@ -104,13 +104,13 @@ nav a:hover{
 
     border:none;
 
-    border-radius:10px;
+    border-radius:12px;
+
+    background:white;
 
     font-size:28px;
 
     cursor:pointer;
-
-    background:white;
 
     transition:0.3s;
 }
@@ -120,9 +120,9 @@ nav a:hover{
     transform:scale(1.05);
 }
 
-/* =========================
+/* ===================================
    COMMON SECTION
-========================= */
+=================================== */
 
 section{
 
@@ -135,16 +135,16 @@ section{
 
     text-align:center;
 
-    font-size:45px;
+    font-size:48px;
 
     margin-bottom:60px;
 
     font-weight:700;
 }
 
-/* =========================
+/* ===================================
    HERO SECTION
-========================= */
+=================================== */
 
 .hero{
 
@@ -165,9 +165,11 @@ section{
     color:white;
 }
 
+/* HERO TEXT */
+
 .hero h1{
 
-    font-size:70px;
+    font-size:75px;
 
     margin-bottom:20px;
 }
@@ -176,10 +178,10 @@ section{
 
     font-size:28px;
 
-    margin-bottom:30px;
+    margin-bottom:35px;
 }
 
-/* BUTTON */
+/* HERO BUTTON */
 
 .hero-btn{
 
@@ -193,7 +195,7 @@ section{
 
     text-decoration:none;
 
-    border-radius:8px;
+    border-radius:10px;
 
     font-size:20px;
 
@@ -207,9 +209,9 @@ section{
     transform:translateY(-5px);
 }
 
-/* =========================
+/* ===================================
    ABOUT SECTION
-========================= */
+=================================== */
 
 .about-container{
 
@@ -222,7 +224,7 @@ section{
     align-items:center;
 }
 
-/* IMAGE */
+/* ABOUT IMAGE */
 
 .about-container img{
 
@@ -235,27 +237,27 @@ section{
     box-shadow:0 10px 30px rgba(0,0,0,0.2);
 }
 
-/* TEXT */
+/* ABOUT TEXT */
 
 .about-text h3{
 
-    font-size:35px;
+    font-size:38px;
 
     margin-bottom:20px;
 }
 
 .about-text p{
 
-    line-height:2;
-
     font-size:18px;
+
+    line-height:2;
 
     margin-bottom:20px;
 }
 
-/* =========================
+/* ===================================
    SKILLS SECTION
-========================= */
+=================================== */
 
 .skills-container{
 
@@ -263,7 +265,7 @@ section{
 
     grid-template-columns:repeat(3,1fr);
 
-    gap:25px;
+    gap:30px;
 }
 
 /* SKILL BOX */
@@ -274,7 +276,7 @@ section{
 
     padding:35px;
 
-    border-radius:15px;
+    border-radius:18px;
 
     text-align:center;
 
@@ -301,17 +303,19 @@ body.dark-mode .skill-box{
     color:white;
 }
 
-/* =========================
+/* ===================================
    PROJECTS SECTION
-========================= */
+=================================== */
 
 .projects-container{
 
     display:grid;
 
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(3, 1fr);
 
     gap:35px;
+
+    margin-top:40px;
 }
 
 /* PROJECT CARD */
@@ -360,12 +364,16 @@ body.dark-mode .skill-box{
     flex:1;
 }
 
+/* TITLE */
+
 .project-content h3{
 
     font-size:28px;
 
     margin-bottom:15px;
 }
+
+/* DESCRIPTION */
 
 .project-content p{
 
@@ -383,7 +391,7 @@ body.dark-mode .project-content p{
     color:#ddd;
 }
 
-/* BUTTONS */
+/* READ MORE BUTTON */
 
 .read-more-btn{
 
@@ -415,20 +423,20 @@ body.dark-mode .project-content p{
 
     display:none;
 
-    margin-top:25px;
+    margin-top:20px;
 
     border-top:1px solid #ddd;
 
     padding-top:20px;
 }
 
-/* PROJECT DETAILS HEADINGS */
+/* PROJECT DETAILS TITLE */
 
 .project-details h4{
 
-    margin-bottom:10px;
-
     font-size:22px;
+
+    margin-bottom:10px;
 }
 
 /* GITHUB BUTTON */
@@ -437,7 +445,7 @@ body.dark-mode .project-content p{
 
     display:inline-block;
 
-    margin-top:20px;
+    margin-top:15px;
 
     padding:12px 22px;
 
@@ -466,9 +474,9 @@ body.dark-mode .project-card{
     color:white;
 }
 
-/* =========================
+/* ===================================
    CONTACT SECTION
-========================= */
+=================================== */
 
 .contact-container{
 
@@ -479,13 +487,13 @@ body.dark-mode .project-card{
     font-size:22px;
 }
 
-/* =========================
+/* ===================================
    FOOTER
-========================= */
+=================================== */
 
 footer{
 
-    background:#020b24;
+    background:#020617;
 
     color:white;
 
@@ -493,12 +501,12 @@ footer{
 
     padding:30px;
 
-    margin-top:50px;
+    margin-top:60px;
 }
 
-/* =========================
+/* ===================================
    RESPONSIVE DESIGN
-========================= */
+=================================== */
 
 /* TABLET */
 
@@ -567,7 +575,7 @@ footer{
 
     .title{
 
-        font-size:35px;
+        font-size:36px;
     }
 
     .project-content h3{
