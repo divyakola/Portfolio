@@ -4,15 +4,50 @@ function showMessage(){
 
 }
 
-const buttons = document.querySelectorAll(".read-more-btn");
+/* DARK MODE */
 
-buttons.forEach(button => {
+const themeToggle = document.getElementById("theme-toggle");
 
-    button.addEventListener("click", function(event){
+themeToggle.addEventListener("click", () => {
 
-        event.preventDefault();
+    document.body.classList.toggle("dark-mode");
 
-        alert("Project details page coming soon!");
+    if(document.body.classList.contains("dark-mode")){
+
+        themeToggle.innerHTML = "☀️";
+
+    }else{
+
+        themeToggle.innerHTML = "🌙";
+
+    }
+
+});
+
+/* READ MORE */
+
+const readButtons = document.querySelectorAll(".read-more-btn");
+
+readButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        const details =
+        button.nextElementSibling;
+
+        if(details.style.display === "block"){
+
+            details.style.display = "none";
+
+            button.innerHTML = "Read More";
+
+        }else{
+
+            details.style.display = "block";
+
+            button.innerHTML = "Show Less";
+
+        }
 
     });
 
