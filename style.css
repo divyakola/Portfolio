@@ -308,38 +308,28 @@ body.dark-mode .skill-box{
 =================================== */
 
 .projects-container{
-
     display:grid;
-
-    grid-template-columns:repeat(3, 1fr);
-
-    gap:35px;
-
-    margin-top:40px;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
 }
-
-/* PROJECT CARD */
 
 .project-card{
-
     background:white;
-
-    border-radius:20px;
-
+    border-radius:10px;
     overflow:hidden;
-
-    box-shadow:0 8px 25px rgba(0,0,0,0.1);
-
-    transition:0.4s;
-
-    display:flex;
-
-    flex-direction:column;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
 }
 
-.project-card:hover{
+.project-card img{
+    width:100%;
+}
 
-    transform:translateY(-12px);
+.project-card h3{
+    padding:15px;
+}
+
+.project-card p{
+    padding:0 15px 20px;
 }
 
 /* PROJECT IMAGE */
